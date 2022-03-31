@@ -1,0 +1,174 @@
+{
+	"width": 1280,
+	"height": 720,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"player": {
+			"type": "image",
+			"width": 32,
+			"height": 32,
+			"path": "image/player.png"
+		},
+		"shot": {
+			"type": "image",
+			"width": 16,
+			"height": 16,
+			"path": "image/shot.png"
+		},
+		"se": {
+			"type": "audio",
+			"path": "audio/se",
+			"systemId": "sound",
+			"duration": 250
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"mikan": {
+			"type": "image",
+			"path": "image/mikan.png",
+			"width": 200,
+			"height": 165
+		},
+		"mochi": {
+			"type": "image",
+			"path": "image/mochi.png",
+			"width": 147,
+			"height": 49
+		},
+		"dai": {
+			"type": "image",
+			"path": "image/dai.png",
+			"width": 435,
+			"height": 24
+		},
+		"Dai": {
+			"type": "script",
+			"path": "script/Entity/Dai.js",
+			"global": true
+		},
+		"Mochi": {
+			"type": "script",
+			"path": "script/Entity/Mochi.js",
+			"global": true
+		},
+		"KagamiMochi": {
+			"type": "script",
+			"path": "script/Entity/KagamiMochi.js",
+			"global": true
+		},
+		"MochiCountLabel": {
+			"type": "script",
+			"path": "script/Entity/MochiCountLabel.js",
+			"global": true
+		},
+		"GameEndSign": {
+			"type": "script",
+			"path": "script/Entity/GameEndSign.js",
+			"global": true
+		},
+		"ForcusedPlayerNameLabel": {
+			"type": "script",
+			"path": "script/Entity/ForcusedPlayerNameLabel.js",
+			"global": true
+		},
+		"NextPlayerNameLabel": {
+			"type": "script",
+			"path": "script/Entity/NextPlayerNameLabel.js",
+			"global": true
+		},
+		"Observable": {
+			"type": "script",
+			"path": "script/Base/Observable.js",
+			"global": true
+		},
+		"Observer": {
+			"type": "script",
+			"path": "script/Base/Observer.js",
+			"global": true
+		},
+		"ObserverLabel": {
+			"type": "script",
+			"path": "script/Base/ObserverLabel.js",
+			"global": true
+		},
+		"PlayerQueue": {
+			"type": "script",
+			"path": "script/Util/PlayerQueue.js",
+			"global": true
+		},
+		"PlayerManager": {
+			"type": "script",
+			"path": "script/Util/PlayerManager.js",
+			"global": true
+		},
+		"GameScene": {
+			"type": "script",
+			"path": "script/Scene/GameScene.js",
+			"global": true
+		},
+		"ScoreBoard": {
+			"type": "script",
+			"path": "script/Entity/ScoreBoard.js",
+			"global": true
+		},
+		"ResultScene": {
+			"type": "script",
+			"path": "script/Scene/ResultScene.js",
+			"global": true
+		},
+		"MochiManager": {
+			"type": "script",
+			"path": "script/Util/MochiManager.js",
+			"global": true
+		},
+		"MyMath": {
+			"type": "script",
+			"path": "script/Util/MyMath.js",
+			"global": true
+		},
+		"GameMessageLabel": {
+			"type": "script",
+			"path": "script/Entity/GameMessageLabel.js",
+			"global": true
+		},
+		"KokomadeLabel": {
+			"type": "script",
+			"path": "script/Entity/KokomadeLabel.js",
+			"global": true
+		}
+	},
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-box2d": "node_modules/@akashic-extension/akashic-box2d/lib/index.js",
+		"box2dweb": "node_modules/box2dweb/box2d.js",
+		"@akashic-extension/akashic-hover-plugin": "node_modules/@akashic-extension/akashic-hover-plugin/lib/index.js",
+		"@akashic-extension/resolve-player-info": "node_modules/@akashic-extension/resolve-player-info/lib/index.js"
+	},
+	"environment": {
+		"sandbox-runtime": "3",
+		"nicolive": {
+			"supportedModes": [
+				"multi_admission"
+			]
+		},
+		"external": {
+			"coeLimited": "0",
+			"atsumaru": "0"
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-box2d/lib/Box2D.js",
+		"node_modules/@akashic-extension/akashic-box2d/lib/ContactManager.js",
+		"node_modules/@akashic-extension/akashic-box2d/lib/index.js",
+		"node_modules/@akashic-extension/akashic-box2d/lib/parateters.js",
+		"node_modules/box2dweb/box2d.js",
+		"node_modules/@akashic-extension/akashic-hover-plugin/lib/Converter.js",
+		"node_modules/@akashic-extension/akashic-hover-plugin/lib/HoverPlugin.js",
+		"node_modules/@akashic-extension/akashic-hover-plugin/lib/index.js",
+		"node_modules/@akashic-extension/resolve-player-info/lib/FallbackDialog.js",
+		"node_modules/@akashic-extension/resolve-player-info/lib/index.js"
+	]
+}
